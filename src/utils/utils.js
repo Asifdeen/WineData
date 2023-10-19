@@ -23,17 +23,16 @@ export function getMean (keyprop,index,property){
             return getAlcoholProperty(alcohol,property)
            }
            return alcohol[property]
-        })
+        })        
         let alcoholClassLength = alcoholClassList.length
-        result = alcoholClassList.reduce((result,alcoholClassList)=>{
-          if (alcoholClassList[0]==="."){
-            alcoholClassList = Number( 0 + alcoholClassList)
+        result = alcoholClassList.reduce((prevTotal , current)=>{
+          if (current[0]==="."){
+                current = Number( 0 + current)
           }
-          result+=alcoholClassList/alcoholClassLength
-          return result
-        })
+          return prevTotal + (current/alcoholClassLength)
+        },0)
+        return result
       }
-      
     })
     return result.toFixed(3)
 }
