@@ -1,7 +1,7 @@
 # WineData
 WineData sheet
 Screenshot of Data
-[![Screenshot-2023-10-18-at-5-31-15-PM.png](https://i.postimg.cc/x87zkjbL/Screenshot-2023-10-18-at-5-31-15-PM.png)](https://postimg.cc/kRQ4zms5)
+[![Screenshot-2023-10-19-at-9-52-06-AM.png](https://i.postimg.cc/RZy9MXGN/Screenshot-2023-10-19-at-9-52-06-AM.png)](https://postimg.cc/gxV1syCW)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
